@@ -4,10 +4,9 @@ node_js:
 cache:
   directories:
     - "node_modules"
-script:
-  - yarn test
+before_deploy:
   - npm run build
-  - cp build docs
+  - cp -r build docs
 deploy:
   provider: pages
   target-brach: master
