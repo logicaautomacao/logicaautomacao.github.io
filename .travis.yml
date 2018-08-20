@@ -4,13 +4,12 @@ node_js:
 cache:
   directories:
     - "node_modules"
-before_deploy:
+script:
+  - yarn test
   - npm run build
-  - cp -r build docs
 deploy:
   provider: pages
-  target-brach: master
-  local-dir: docs
+  local-dir: build
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
