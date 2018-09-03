@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Slides = ({ image, alt, text }) => (
+const Slide = ({ image, alt, text }) => (
   <div className="slide">
     <div className="slide-image">
       <img
-        src={image}
+        src={process.env.PUBLIC_URL + image}
         alt={alt}
         className="img-responsive img-back"
         style={{ width: '100%', height: 300 }}
@@ -17,10 +17,26 @@ const Slides = ({ image, alt, text }) => (
   </div>
 );
 
-Slides.propTypes = {
+Slide.propTypes = {
   image: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
+
+const Slides = ({ slides }) => (
+  <div className="slides">
+    { slides.map(({
+          'imagem': image,
+          'descrição': description,
+          'texto-inferior': text
+        }) => <Slide image={image} alt={description} text={text} />
+      )
+    }
+  </div>
+)
+
+Slides.propTypes = {
+  presentation: PropTypes.arrayOf(Slide.propTypes)
+}
 
 export default Slides;

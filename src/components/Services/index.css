@@ -1,0 +1,19 @@
+/* flex container */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+/* flex children */
+.services > * {
+  flex: 0 20em;
+  margin: 5dp;
+  margin-bottom: 20px;
+  align-self: stretch;
+}
+
+.service .card {
+  height: 100%;
+}

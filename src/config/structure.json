@@ -1,0 +1,54 @@
+{
+  "pagina-inicial": {
+    "imagens-superiores": [
+      {
+        "imagem": "/assets/images/technology.jpg",
+        "descrição": "umadescricao",
+        "texto-inferior": "outro texto"
+      }
+    ],
+    "apresentação": {
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet orci felis, et interdum ligula pretium vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tempor, ante lacinia interdum accumsan, ex nunc facilisis sapien, sit amet vulputate urna risus id turpis. Nam laoreet tincidunt neque. Mauris iaculis efficitur leo, quis bibendum mauris bibendum dictum. Cras odio mauris, tincidunt id condimentum id, imperdiet a ex. Ut iaculis augue ut enim semper scelerisque. Donec neque lorem, placerat ut semper non, iaculis ac ante. Sed vitae commodo erat, quis accumsan neque. Morbi hendrerit nisi vitae tristique bibendum. Morbi imperdiet feugiat odio, in tincidunt risus blandit eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla a odio non ipsum pulvinar elementum sit amet vitae arcu. Fusce aliquet, turpis a cursus gravida, erat purus consequat mauris, id dictum mi diam eu dui. Cras nisl ligula, imperdiet a magna sed, tincidunt varius dui. "
+    },
+    "serviços": [
+      {
+        "título": "Lorem Ipsum 1",
+        "subtítulo": "Dolor sit amet",
+        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      },
+      {
+        "título": "Lorem Ipsum 2",
+        "subtítulo": "Dolor sit amet",
+        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      },
+      {
+        "título": "Lorem Ipsum 3",
+        "subtítulo": "Dolor sit amet",
+        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      },
+      {
+        "título": "Lorem Ipsum 4",
+        "subtítulo": "Dolor sit amet",
+        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra."
+      },
+      {
+        "título": "Lorem Ipsum 5",
+        "subtítulo": "Dolor sit amet",
+        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      }
+    ],
+    "contato": {
+      "título": "Fale Conosco",
+      "email": "Seu Email",
+      "mensagem": "mensagem",
+      "email-enviado": "Email enviado, entraremos em contato",
+      "enviar": "Enviar mensagem",
+      "formcarry-url": "https://formcarry.com/s/46QFSbKJBgR"
+    }
+  }
+}
