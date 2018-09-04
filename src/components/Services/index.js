@@ -12,14 +12,16 @@ import {
 import './index.css';
 
 const Service = ({
-  'título': title,
-  'subtítulo': subtitle,
-  'imagem': image,
-  'texto': text
+  título: title,
+  subtítulo: subtitle,
+  imagem: image,
+  texto: text,
 }) => (
   <div className="service">
     <Card>
-      <CardImg top width='100%'
+      <CardImg
+        top
+        width="100%"
         src={image}
         alt={title}
       />
@@ -30,13 +32,13 @@ const Service = ({
       </CardBlock>
     </Card>
   </div>
-)
+);
 
-Service.PropTypes = {
-  'título': PropTypes.string.isRequired,
-  'subtítulo': PropTypes.string.isRequired,
-  'imagem': PropTypes.string.isRequired,
-  'texto': PropTypes.string.isRequired
+Service.propTypes = {
+  título: PropTypes.string.isRequired,
+  subtítulo: PropTypes.string.isRequired,
+  imagem: PropTypes.string.isRequired,
+  texto: PropTypes.string.isRequired,
 };
 
 const Services = ({ services }) => (
@@ -45,8 +47,12 @@ const Services = ({ services }) => (
   </div>
 );
 
-Services.PropTypes = {
+Services.propTypes = {
   services: PropTypes.arrayOf(Service.PropTypes),
+};
+
+Services.defaultProps = {
+  services: [],
 };
 
 export default Services;

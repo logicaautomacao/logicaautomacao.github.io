@@ -14,17 +14,13 @@ import registerServiceWorker from './registerServiceWorker';
 
 import structure from './config/structure.json';
 
-const store = createStore(logicaReducers);
+const store = createStore(logicaReducers, structure);
 I18n.setup();
-
-const {
-  'pagina-inicial': home
-} = structure;
 
 render(
   <Provider store={store}>
     <Router>
-      <Route path="/" component={Home} home={home} />
+      <Route path="/" component={Home} />
     </Router>
   </Provider>,
   document.getElementById('root'),

@@ -25,18 +25,20 @@ Slide.propTypes = {
 
 const Slides = ({ slides }) => (
   <div className="slides">
-    { slides.map(({
-          'imagem': image,
-          'descrição': description,
-          'texto-inferior': text
-        }) => <Slide image={image} alt={description} text={text} />
+    {
+      slides.map(
+        ({
+          imagem: image,
+          descrição: description,
+          'texto-inferior': text,
+        }) => <Slide image={image} alt={description} text={text} />,
       )
     }
   </div>
-)
+);
 
 Slides.propTypes = {
-  presentation: PropTypes.arrayOf(Slide.propTypes)
-}
+  slides: PropTypes.arrayOf(Slide.propTypes).isRequired,
+};
 
 export default Slides;
