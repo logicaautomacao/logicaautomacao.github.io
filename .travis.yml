@@ -6,6 +6,7 @@ cache:
     - "node_modules"
 script:
   - yarn test
+  - yarn run eslint --ignore-pattern node_modules/ --ignore-pattern src/registerServiceWorker.js src/**/*.js
   - npm run build
 deploy:
   provider: pages
