@@ -45,9 +45,10 @@
     "contato": {
       "título": "Fale Conosco",
       "email": "Seu Email",
-      "mensagem": "mensagem",
+      "mensagem": "Mensagem",
       "email-enviado": "Email enviado, entraremos em contato",
       "enviar": "Enviar mensagem",
+      "enviando": "Enviando...",
       "formcarry-url": "https://formcarry.com/s/46QFSbKJBgR"
     }
   }
