@@ -2,10 +2,9 @@
   "pagina-inicial": {
     "imagens-superiores": [
       {
-        "imagem": "/assets/images/technology.jpg",
-        "descrição": "umadescricao",
-        "texto-inferior": "outro texto"
-      }
+        "imagem": "/assets/images/Prédio.png",
+        "descrição": "Cuidamos de seu patrimônio por você",
+        "texto-inferior": "Prédio com câmera de segurança"    }
     ],
     "apresentação": {
       "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet orci felis, et interdum ligula pretium vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tempor, ante lacinia interdum accumsan, ex nunc facilisis sapien, sit amet vulputate urna risus id turpis. Nam laoreet tincidunt neque. Mauris iaculis efficitur leo, quis bibendum mauris bibendum dictum. Cras odio mauris, tincidunt id condimentum id, imperdiet a ex. Ut iaculis augue ut enim semper scelerisque. Donec neque lorem, placerat ut semper non, iaculis ac ante. Sed vitae commodo erat, quis accumsan neque. Morbi hendrerit nisi vitae tristique bibendum. Morbi imperdiet feugiat odio, in tincidunt risus blandit eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla a odio non ipsum pulvinar elementum sit amet vitae arcu. Fusce aliquet, turpis a cursus gravida, erat purus consequat mauris, id dictum mi diam eu dui. Cras nisl ligula, imperdiet a magna sed, tincidunt varius dui. "
