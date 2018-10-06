@@ -4,7 +4,8 @@
       {
         "imagem": "/assets/images/Prédio.png",
         "descrição": "Cuidamos de seu patrimônio por você",
-        "texto-inferior": "Prédio com câmera de segurança"    }
+        "texto-inferior": "Prédio com câmera de segurança"
+      }
     ],
     "apresentação": "Lógica Automação"    {
       "texto": "Especializada na prestação de serviço em segurança eletrônica proporcionando tranquilidade a sua família e patrimônio."
@@ -15,8 +16,7 @@
         "título": "Sistemas de Câmeras",
         "subtítulo": "Dolor sit amet",
         "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-        "texto": "Permite o visualização do local, inclusive via internet/celular
-."
+        "texto": "Permite o visualização do local, inclusive via internet/celular."
       },
       {
         "título": "Lorem Ipsum 2",
