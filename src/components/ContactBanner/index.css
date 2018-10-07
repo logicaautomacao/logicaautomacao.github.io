@@ -1,0 +1,15 @@
+div.ContactBanner {
+  background-color: var(--blue-color);
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactBlock > img {
+  margin: 1em 0.5em;
+  height: 20px;
+  width: 20px;
+}
+
+.contactBlock > .contact {
+  color: var(--bright-color);
+}

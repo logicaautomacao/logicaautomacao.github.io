@@ -1,22 +1,35 @@
 import React from 'react';
-import {
-  Navbar as NBar,
-  NavbarToggler,
-  Nav, NavItem, NavLink,
-  NavbarBrand, Collapse,
-} from 'reactstrap';
-import { t } from '../../i18n';
+import PropTypes from 'prop-types';
+import './index.css';
 
-export default () => (
-  <NBar color="faded" light sticky toggleable expand="md">
-    <NavbarBrand href="/">{t('empresa.nome')}</NavbarBrand>
-    <NavbarToggler onClick={() => {}} />
-    <Collapse isOpen navbar>
-      <Nav navbar>
-        <NavItem>
-          <NavLink href="/components/">Test</NavLink>
-        </NavItem>
-      </Nav>
-    </Collapse>
-  </NBar>
+const NavBar = ({ presentation }) => (
+  <div className="NavBar">
+    <header className="presentation">
+      <div className="logo">
+        <img alt={presentation.logo['descrição']} src={presentation.logo.imagem} />
+        <span>{presentation.logo.texto}</span>
+      </div>
+      <div className="faleConosco">
+        <img alt="" src={presentation['fale-conosco'].imagem} />
+        <span>{presentation['fale-conosco'].texto}</span>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        {
+          presentation['navegação'].map(
+            link => (
+              <li>{link.texto}</li>
+            ),
+          )
+        }
+      </ul>
+    </nav>
+  </div>
 );
+
+NavBar.propTypes = {
+  presentation: PropTypes.isRequired,
+};
+
+export default NavBar;

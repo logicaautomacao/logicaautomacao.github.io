@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { Container } from 'reactstrap';
 
 import Navbar from '../../components/Navbar';
+import ContactBanner from '../../components/ContactBanner';
 import Slides from '../../components/Slides';
 import Presentation from '../../components/Presentation';
 import Services from '../../components/Services';
@@ -14,6 +15,7 @@ import './index.css';
 const Home = ({ home }) => {
   const {
     'imagens-superiores': slides,
+    'informações-de-contato': contactInformation,
     apresentação: presentation,
     serviços: services,
     contato: contact,
@@ -22,7 +24,8 @@ const Home = ({ home }) => {
 
   return (
     <div className="Home">
-      <Navbar />
+      <ContactBanner info={contactInformation} />
+      <Navbar presentation={presentation} />
       <Slides slides={slides} />
       <Container>
         <Presentation presentation={presentation} />

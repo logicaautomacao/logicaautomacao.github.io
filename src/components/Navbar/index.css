@@ -1,0 +1,34 @@
+ul, li {
+  list-style: none;
+  margin: 0;
+}
+
+div.NavBar > header.presentation {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.NavBar > header.presentation > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1em;
+}
+
+div.NavBar > header.presentation > div > img {
+  max-height: 100px;
+}
+
+div.NavBar > nav ul {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--blue-color);
+}
+
+div.NavBar > nav li {
+  margin: 0.5em 1em;
+  color: var(--bright-color);
+  cursor: pointer;
+}

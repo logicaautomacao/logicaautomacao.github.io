@@ -1,5 +1,22 @@
 {
   "pagina-inicial": {
+    "informações-de-contato": [
+      {
+        "imagem": "/assets/images/Telefone.png",
+        "descrição": "telefone",
+        "contato": "99999-9999"
+      },
+      {
+        "imagem": "/assets/images/Whats.png",
+        "descrição": "Whatsapp",
+        "contato": "8482398398"
+      },
+      {
+        "imagem": "/assets/images/Email.png",
+        "descrição": "email",
+        "contato": "logica@logicaautomacao.com.br"
+      }
+    ],
     "imagens-superiores": [
       {
         "imagem": "/assets/images/Prédio.png",
@@ -7,9 +24,40 @@
         "texto-inferior": "Prédio com câmera de segurança"
       }
     ],
-    "apresentação": "Lógica Automação"    {
+    "apresentação": {
+      "logo": {
+        "imagem": "/assets/images/Logo.png",
+        "descrição": "Logica Automação e Sistemas",
+        "texto": "28 Anos de Tecnologia"
+      },
+      "fale-conosco": {
+        "imagem": "/assets/images/FaleConosco.jpg",
+        "descrição": "Fale Conosco",
+        "texto": "Fale Conosco"
+      },
+      "navegação": [
+        {
+          "texto": "Home",
+          "para": "home"
+        },
+        {
+          "texto": "Home",
+          "para": "home"
+        },
+        {
+          "texto": "Home",
+          "para": "home"
+        },
+        {
+          "texto": "Home",
+          "para": "home"
+        },
+        {
+          "texto": "Home",
+          "para": "home"
+        }
+      ],
       "texto": "Especializada na prestação de serviço em segurança eletrônica proporcionando tranquilidade a sua família e patrimônio."
- 
     },
     "serviços": [
       {
