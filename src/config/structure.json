@@ -57,7 +57,11 @@
           "para": "home"
         }
       ],
-      "texto": "Especializada na prestação de serviço em segurança eletrônica proporcionando tranquilidade a sua família e patrimônio."
+      "texto": [
+        "Especializada na prestação de serviço em segurança eletrônica proporcionando tranquilidade a sua família e patrimônio.",
+        "Mais um texto",
+        "Mais um ainda"
+      ]
     },
     "serviços": [
       {

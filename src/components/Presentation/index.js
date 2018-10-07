@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 const Presentation = ({ presentation: { texto: presentationText } }) => (
   <div className="Presentation">
-    <p>{ presentationText }</p>
+    {
+      presentationText.map(text => <p>{ text }</p>)
+    }
   </div>
 );
 
