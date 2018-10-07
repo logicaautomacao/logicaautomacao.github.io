@@ -1,3 +1,10 @@
+:root {
+  --blue-color: rgb(97, 120, 178);
+  --orange-color: rgb(255, 102, 55);
+  --bright-color: #ddd;
+  --dark-color: #222;
+}
+
 body {
   margin: 0;
   padding: 0;

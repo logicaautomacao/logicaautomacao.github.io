@@ -1,6 +1,7 @@
 ul, li {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 div.NavBar > header.presentation {
@@ -21,8 +22,14 @@ div.NavBar > header.presentation > div > img {
   max-height: 100px;
 }
 
+div.NavBar > nav {
+  position: sticky;
+  top: 10px;
+}
+
 div.NavBar > nav ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   background-color: var(--blue-color);
 }
@@ -31,4 +38,13 @@ div.NavBar > nav li {
   margin: 0.5em 1em;
   color: var(--bright-color);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  div.NavBar > header.presentation {
+    flex-direction: column;
+  }
+  div.NavBar > header.presentation > div > img {
+    max-height: 70px;
+  }
 }

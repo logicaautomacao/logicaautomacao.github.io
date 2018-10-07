@@ -13,3 +13,10 @@ div.ContactBanner {
 .contactBlock > .contact {
   color: var(--bright-color);
 }
+
+@media only screen and (max-width: 600px) {
+  div.ContactBanner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
