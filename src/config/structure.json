@@ -18,10 +18,15 @@
       }
     ],
     "imagens-superiores": [
-      {
+       {
         "imagem": "/assets/images/Prédio.png",
         "descrição": "Cuidamos de seu patrimônio por você",
         "texto-inferior": "Prédio com câmera de segurança"
+      },
+      {
+        "imagem": "/assets/images/Casa-Fig1.png",
+        "descrição": "teste",
+        "texto-inferior": "casa com imagens de câmera, alarme, sensor infravermelho"
       }
     ],
     "apresentação": {
