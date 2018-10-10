@@ -19,21 +19,26 @@
     ],
     "imagens-superiores": [
        {
-        "imagem": "/assets/images/Predio1.png",
-        "descrição": "Cuidamos de seu patrimônio por você",
-        "texto-inferior": "Prédio com câmera de segurança"
+        "imagem": "/assets/images/FrenteMonitoreamento.png",
+        "descrição": "Monitoramento",
+        "texto-inferior": "Monitoramento - Sala de monitoramento"
       },
       {
-        "imagem": "/assets/images/Casa-Fig1.png",
-        "descrição": "teste",
-        "texto-inferior": "casa com imagens de câmera, alarme, sensor infravermelho"
+        "imagem": "/assets/images/FrenteCamera.png",
+        "descrição": "Camera",
+        "texto-inferior": "Predio com camera"
+      },
+      {
+        "imagem": "/assets/images/FrenteAlarme.png",
+        "descrição": "Alarme",
+        "texto-inferior": "Alarme - Pessoas felizes"
       }
     ],
     "apresentação": {
       "logo": {
         "imagem": "/assets/images/Logo.png",
         "descrição": "Logica Automação e Sistemas",
-        "texto": "28 Anos de Tecnologia"
+        "texto": "A 28 anos desenvolvendo e instalando projetos de segurança eletrônica"
       },
       "fale-conosco": {
         "imagem": "/assets/images/FaleConosco.jpg",
@@ -73,33 +78,33 @@
     "serviços": [
       {
         "título": "Sistemas de Câmeras",
-        "subtítulo": "Dolor sit amet",
-        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-        "texto": "Permite o visualização do local, inclusive via internet/celular."
+        "subtítulo": "Gerenciamento inteligente de sua residência, condomínio, loja, escritório e indústria.",
+        "imagem": "/assets/images/camera.png",
+        "texto": "Projetos com alarmes, sensores infravermelho, sensores de barreira, cerca elétrica e tudo com a possibilidade de controle via internet""Projetos com alarmes, sensores infravermelho, sensores de barreira, cerca elétrica e tudo com a possibilidade de controle via internet" 
       },
       {
-        "título": "Lorem Ipsum 2",
-        "subtítulo": "Dolor sit amet",
-        "imagem": "/assets/images/Prédio.png",
-        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        "título": "Controle de Acesso",
+        "subtítulo": "Facilidade para sua vida com segurança.",
+        "imagem": "/assets/images/Biometria.png",
+        "texto": "Equipamentos para identificação através de biometria, que facilitam a entrada e saída de sua residência e proporciona maior segurança."
       },
       {
-        "título": "Lorem Ipsum 3",
-        "subtítulo": "Dolor sit amet",
-        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        "título": "Sistema de Câmeras",
+        "subtítulo": "Permite a visualização do local, inclusive via internet/celula",
+        "imagem": "/assets/images/Cameras.png",
+        "texto": "As câmeras e os gerenciadores de imagens (DVR) com tecnologia IP permitem facilidades na visualização e no controle via internet."
       },
       {
-        "título": "Lorem Ipsum 4",
-        "subtítulo": "Dolor sit amet",
-        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra."
+        "título": "Monitoramentos",
+        "subtítulo": "O monitoramento 24 hs do seu alarme com possibilidade de visualização das imagens do local",
+        "imagem": "/assets/images/Monitoramento.png",
+        "texto": "O sistema permite gravação remota das imagens dando tranquilidade em caso de sinistro."
       },
       {
-        "título": "Lorem Ipsum 5",
-        "subtítulo": "Dolor sit amet",
-        "imagem": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-        "texto": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        "título": "Portaria Virtual",
+        "subtítulo": "Seu condomínio merece a tecnologia trabalhando ao seu favor.",
+        "imagem": "/assets/images/PortariaVirtual.png",
+        "texto": "A Central de monitoramento visualiza, controla entrada de pessoas e veículos, grava e chama a polícia em caso de sinistro, tudo de forma remota."
       }
     ],
     "contato": {
