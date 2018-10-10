@@ -32,7 +32,7 @@
         "imagem": "/assets/images/FrenteAlarme.png",
         "descrição": "Alarme",
         "texto-inferior": "Alarme - Pessoas felizes"
-      }
+      },
     ],
     "apresentação": {
       "logo": {
@@ -105,7 +105,7 @@
         "subtítulo": "Seu condomínio merece a tecnologia trabalhando ao seu favor.",
         "imagem": "/assets/images/PortariaVirtual.png",
         "texto": "A Central de monitoramento visualiza, controla entrada de pessoas e veículos, grava e chama a polícia em caso de sinistro, tudo de forma remota."
-      }
+      },
     ],
     "contato": {
       "título": "Fale Conosco",
