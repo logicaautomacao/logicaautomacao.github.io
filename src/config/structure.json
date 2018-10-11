@@ -35,7 +35,7 @@
       },
     ],
     "apresentação": {
-      "logo": {
+        "logo": ""
         "imagem": "/assets/images/Logo.png",
         "descrição": "Logica Automação e Sistemas",
         "texto": "A 28 anos desenvolvendo e instalando projetos de segurança eletrônica"
