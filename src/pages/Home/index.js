@@ -24,8 +24,6 @@ const Home = ({ home }) => {
     rodapé: footer,
   } = home;
 
-  console.log('Servsduh', services);
-
   return (
     <div className="Home">
       <ContactBanner info={contactInformation} />

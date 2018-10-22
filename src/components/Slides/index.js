@@ -50,7 +50,6 @@ const Slides = ({
 }) => (
   <Carousel
     activeIndex={carrouselActiveIndex}
-    interval={false}
     next={nextSlide(slides)}
     prev={prevSlide(slides)}
   >

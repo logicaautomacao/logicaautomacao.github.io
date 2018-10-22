@@ -36,10 +36,11 @@ export default {
       },
     ],
     "apresentação": {
-      "logo": "",
-      "imagem": "/assets/images/Logo.png",
-      "descrição": "Logica Automação e Sistemas",
-      "texto": "A 28 anos desenvolvendo e instalando projetos de segurança eletrônica",
+      "logo": {
+        "imagem": "/assets/images/LogoTransparente.png",
+        "descrição": "Logica Automação e Sistemas",
+        "texto": "A 28 anos desenvolvendo e instalando projetos de segurança eletrônica",
+      },
       "fale-conosco": {
         "imagem": "/assets/images/FaleConosco.jpg",
         "descrição": "Fale Conosco",
