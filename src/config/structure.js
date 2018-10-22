@@ -118,4 +118,4 @@ export default {
       "formcarry-url": "https://formcarry.com/s/46QFSbKJBgR",
     },
   },
-};
+}
