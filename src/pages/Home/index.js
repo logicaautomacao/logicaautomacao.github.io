@@ -8,9 +8,11 @@ import ContactBanner from '../../components/ContactBanner';
 import Slides from '../../components/Slides';
 import Presentation from '../../components/Presentation';
 import Services from '../../components/Services';
-import Contact from '../../components/Contact';
+// import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
 import './index.css';
+
+const Contact = () => (<div />);
 
 const Home = ({ home }) => {
   const {
@@ -21,6 +23,8 @@ const Home = ({ home }) => {
     contato: contact,
     rodapé: footer,
   } = home;
+
+  console.log('Servsduh', services);
 
   return (
     <div className="Home">

@@ -13,7 +13,7 @@ import I18n from './i18n';
 import registerServiceWorker from './registerServiceWorker';
 import asyncDispatchMiddleware from './middlewares/asyncDispatchMiddleware';
 
-import structure from './config/structure.json';
+import structure from './config/structure';
 
 const defaultState = {
   ...structure,
@@ -23,6 +23,7 @@ const defaultState = {
     email: '',
     message: '',
   },
+  carrouselActiveIndex: 0,
 };
 
 const store = createStore(

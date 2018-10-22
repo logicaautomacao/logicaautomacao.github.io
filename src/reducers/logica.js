@@ -4,6 +4,9 @@ import {
   formResponse,
   updateCustomerEmail,
   updateCustomerMessage,
+  nextSlide,
+  prevSlide,
+  gotoSlide,
 } from './actions';
 
 const submitContactForm = ({
@@ -55,7 +58,7 @@ const reduce = (state, action) => {
           success: false,
         },
       };
-    case sendContactEmail:
+    case sendContactEmail: {
       submitContactForm(state, action);
       return {
         ...state,
@@ -64,6 +67,7 @@ const reduce = (state, action) => {
           loading: true,
         },
       };
+    }
     case formResponse:
       return {
         ...state,
@@ -73,6 +77,28 @@ const reduce = (state, action) => {
           success: action.payload.success,
         },
       };
+    case nextSlide: {
+      const isLastIndex = index => index === action.payload.length - 1;
+      const activeIndex = state.carrouselActiveIndex;
+      return {
+        ...state,
+        carrouselActiveIndex: isLastIndex(activeIndex) ? 0 : activeIndex + 1,
+      };
+    }
+    case prevSlide: {
+      const lastIndex = action.payload.length - 1;
+      const activeIndex = state.carrouselActiveIndex;
+      return {
+        ...state,
+        carrouselActiveIndex: activeIndex === 0 ? lastIndex : activeIndex - 1,
+      };
+    }
+    case gotoSlide: {
+      return {
+        ...state,
+        carrouselActiveIndex: action.payload,
+      };
+    }
     default:
       return state;
   }

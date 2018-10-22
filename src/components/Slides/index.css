@@ -1,3 +1,47 @@
+.slide-control, a.carousel-control-prev {
+  color: #000;
+}
+
+.slide-control > .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.slide-control > .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+
 .slide {
   display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  min-height: 200px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.side-card {
+  padding: 2em;
+  margin-left: -6em;
+  background-color: var(--white-color);
+  border: 1px solid var(--orange-color);
+  text-align: center;
+  max-width: 600px;
+}
+
+.side-text {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+  .slide {
+    flex-direction: column;
+  }
+  .side-card {
+    margin: -1em 0 0 0;
+  }
 }

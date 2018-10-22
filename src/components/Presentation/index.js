@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './index.css';
+
 const Presentation = ({ presentation: { texto: presentationText } }) => (
   <div className="Presentation">
     {
