@@ -78,9 +78,9 @@ export default {
     },
     "serviços": [
       {
-        "título": "Sistemas de Câmeras",
+        "título": "Sistemas de Alarme",
         "subtítulo": "Gerenciamento inteligente de sua residência, condomínio, loja, escritório e indústria.",
-        "imagem": "/assets/images/Camera.png",
+        "imagem": "/assets/images/Alarme.png",
         "texto": "Projetos com alarmes, sensores infravermelho, sensores de barreira, cerca elétrica e tudo com a possibilidade de controle via internet",
       },
       {
