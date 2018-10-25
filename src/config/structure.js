@@ -20,17 +20,17 @@ export default {
     ],
     "imagens-superiores": [
       {
-        "imagem": "/assets/images/FrenteMonitoramento.png",
+        "imagem": "/assets/images/FrenteMonitoramento1.jpg",
         "descrição": "Monitoramento - Sala de monitoramento",
         "texto-lateral": "Monitore seu patrimônio com sistemas informatizados e pessoal qualificado",
       },
       {
-        "imagem": "/assets/images/Prédio.png",
+        "imagem": "/assets/images/Prédio1.png",
         "descrição": "Predio com camera",
         "texto-lateral": "Tecnologia IP integrada à segurança do seu patrimônio",
       },
       {
-        "imagem": "/assets/images/FrenteAlarme.jpg",
+        "imagem": "/assets/images/FrenteAlarme1.jpg",
         "descrição": "Alarme - Pessoas felizes",
         "texto-lateral": "Tranquilidade para sua família e para você com projetos inteligentes em segurança eletrônica",
       },
