@@ -20,17 +20,17 @@ export default {
     ],
     "imagens-superiores": [
       {
-        "imagem": "/assets/images/FrenteMonitoreamento.png",
+        "imagem": "/assets/images/FrenteMonitoramento.png",
         "descrição": "Monitoramento - Sala de monitoramento",
         "texto-lateral": "Monitore seu patrimônio com sistemas informatizados e pessoal qualificado",
       },
       {
-        "imagem": "/assets/images/FrenteCamera.png",
+        "imagem": "/assets/images/Prédio.png",
         "descrição": "Predio com camera",
         "texto-lateral": "Tecnologia IP integrada à segurança do seu patrimônio",
       },
       {
-        "imagem": "/assets/images/FrenteAlarme.png",
+        "imagem": "/assets/images/FrenteAlarme.jpg",
         "descrição": "Alarme - Pessoas felizes",
         "texto-lateral": "Tranquilidade para sua família e para você com projetos inteligentes em segurança eletrônica",
       },
@@ -98,7 +98,7 @@ export default {
       {
         "título": "Monitoramentos",
         "subtítulo": "O monitoramento 24 hs do seu alarme com possibilidade de visualização das imagens do local",
-        "imagem": "/assets/images/Monitoramento.png",
+        "imagem": "/assets/images/Monitoramento.jpg",
         "texto": "O sistema permite gravação remota das imagens dando tranquilidade em caso de sinistro.",
       },
       {
