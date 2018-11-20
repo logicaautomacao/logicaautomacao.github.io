@@ -69,11 +69,11 @@ export default {
         },
       ],
       "texto": [
-        "Especializada na prestação de serviço em segurança eletrônica proporcionando tranquilidade a sua família e patrimônio.",
+        "Especializados na prestação de serviço de segurança eletrônica proporcionamos tranquilidade a sua família e segurança ao seu patrimônio.",
         "Fundada em 1990, a Lógica Automação se desenvolveu em projetos e instalações de equipamentos de alta qualidade e confiabilidade.",
-        "Contamos com engenheiros e técnicos qualificados e constantemente treinados  para atender nossos clientes com o melhor do mercado sempre visando custo x benefício.",
-        "Procuramos sempre ser o melhor para satisfação de nosso cliente.",
-        "Atendemos condomínios, residências, comércios e indústrias.",
+        "Contamos com engenheiros e técnicos qualificados e constantemente treinados para atender nossos clientes com o melhor do mercado sempre visando custo x benefício.",
+        "Nosso objetivo é a satisfação de nosso cliente.",
+        "Atendemos condomínios, comércios, indústrias e residências.",
       ],
     },
     "serviços": [
@@ -91,13 +91,13 @@ export default {
       },
       {
         "título": "Sistema de Câmeras",
-        "subtítulo": "Permite a visualização do local, inclusive via internet/celula",
+        "subtítulo": "Permite a visualização do local, inclusive via internet/celular",
         "imagem": "/assets/images/Camera.png",
         "texto": "As câmeras e os gerenciadores de imagens (DVR) com tecnologia IP permitem facilidades na visualização e no controle via internet.",
       },
       {
         "título": "Monitoramentos",
-        "subtítulo": "O monitoramento 24 hs do seu alarme com possibilidade de visualização das imagens do local",
+        "subtítulo": "Monitoramento 24 hs do seu alarme com possibilidade de visualização das imagens do local",
         "imagem": "/assets/images/Monitoramento.jpg",
         "texto": "O sistema permite gravação remota das imagens dando tranquilidade em caso de sinistro.",
       },
